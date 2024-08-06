@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Еммети</h1>
+    <article>
+      <h2>Елементи-еммети</h2>
+      <p>strong</p>
+      <strong>Це результат еммета зверху (без текста)</strong>
+    </article>
+    <article>
+      <h2>Вкладені елементи (Оператор >)</h2>
+      <p>ul>li</p>
+      <ul>
+        <li>Елемент списку</li>
+      </ul>
+    </article>
+    <article>
+      <h2>Ще один приклад вкладеності</h2>
+      <p>div>ul>li</p>
+      <div>
+        <ul>
+          <li>Елемент списку</li>
+        </ul>
+      </div>
+    </article>
+    <article>
+      <h2>Приклад оператора сусідніх елементів (+)</h2>
+      <p>img+a</p>
+      <img src="../images/cat.avif" alt="Щось" />
+      <a href="#">Догори</a>
+    </article>
+    <article>
+      <h2>Дублікація повторних елементів (*)</h2>
+      <p>p*3</p>
+      <p>Перший створений</p>
+      <p>Другий створений</p>
+      <p>Третій створений</p>
+    </article>
+    <article>
+      <h2>Оператор групування (дужки)</h2>
+      <p>(section>ul>li*3)*2</p>
+      <section>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+        </ul>
+      </section>
+    </article>
+    <article>
+      <h2>Атрибут id (#значення_атрибуту)</h2>
+      <p>section#intro</p>
+      <section id="intro">Тут буде айдішік intro</section>
+    </article>
+    <article>
+      <h2>Атрибут class (.значення_атрибуту)</h2>
+      <p>section.main-section</p>
+      <section class="main-section">Тут буде класс main-section</section>
+    </article>
+    <article>
+      <h2>Вказання декльікох класів одночасно</h2>
+      <p>section.class-1.class-2.class-500</p>
+      <section class="class-1 class-2 class-500">test</section>
+    </article>
+    <article>
+      <h2>Звичайні атрибути</h2>
+      <p>img[alt="Cat" title="This is cat" id="решіточкою_краще"]</p>
+      <img src="" alt="Cat" title="This is cat" id="решіточкою_краще" />
+    </article>
+    <article>
+      <h2>Комбінація атрибутів</h2>
+      <p>section[title="test"].class-1#main.class-2.class-500</p>
+      <section title="test" class="class-1 class-2 class-500" id="main">
+        test
+      </section>
+    </article>
+    <article>
+      <h2>Текст всередині елементів ( {ваш текст} )</h2>
+      <p>p{це текст з емету}</p>
+      <p>це текст з емету</p>
+    </article>
+    <article>
+      <h2>Текст - заглушка Lorem Ipsum на 80 слів (lorem)</h2>
+      <p>p>lorem</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, illum
+        deleniti eligendi itaque illo, explicabo ex minus quos alias rem
+        temporibus. Nobis, expedita vero odio numquam explicabo saepe ipsa quae.
+      </p>
+    </article>
+    <article>
+      <h2>Текст - заглушка Lorem Ipsum довільної довжини (lorem5)</h2>
+      <p>p>lorem5</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </article>
+
+    <article>
+      <h2>Перелічення в емметах ($)</h2>
+      <p>ul>li{Предмет $}*3</p>
+      <ul>
+        <li>Предмет 1</li>
+        <li>Предмет 2</li>
+        <li>Предмет 3</li>
+      </ul>
+
+      <p>img[src="../images/cat-$.jpg" alt="Cat picture $"]#cat$*5</p>
+      <img src="../images/cat-1.jpg" alt="Cat picture 1" id="cat1" />
+      <img src="../images/cat-2.jpg" alt="Cat picture 2" id="cat2" />
+      <img src="../images/cat-3.jpg" alt="Cat picture 3" id="cat3" />
+      <img src="../images/cat-4.jpg" alt="Cat picture 4" id="cat4" />
+      <img src="../images/cat-5.jpg" alt="Cat picture 5" id="cat5" />
+
+    </article>
+  </body>
+</html>
