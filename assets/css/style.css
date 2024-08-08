@@ -29,13 +29,25 @@ p {
     R   G     B
     00  ff   00
   */
-  color: #00ff00;
+  /* color: #00ff00; */
 
   /* 
     Розмір шрифта
     css 1px = 1 / 96 дюйма
   */
-  font-size: 20px;
+  font-size: 24px;
+
+  /* 
+    керування жирнотою тексту
+
+    normal (400, за замовчанням для тексту ) | bold (700, заголовки)
+  */
+  font-weight: bold;
+}
+
+h2 {
+  /* font-size: 16px; */
+  /* font-weight: normal; */
 }
 
 h1 {
