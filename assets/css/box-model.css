@@ -1,0 +1,15 @@
+
+.block-elem {
+  /* 
+    вказання режиму відображення елементу
+  */
+  display: block;
+  background-color: aqua;
+  font-size: 30px;
+}
+
+.inline-elem {
+  display: inline;
+  font-size: 30px;
+  background-color: lime;
+}

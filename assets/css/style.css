@@ -62,6 +62,7 @@ h2 {
 
   /* font-size: 16px; */
   /* font-weight: normal; */
+  background-color: limegreen;
 }
 
 .link {
@@ -70,15 +71,15 @@ h2 {
     none | capitalize | uppercase | lowercase
   */
   text-transform: capitalize;
-
+  background-color: aqua;
   /* 
     керує відображенням підреслень 
     та деяких інших декоріцій тексту
 
     text-decoration-line + text-decoration-style + text-decoration-color
   */
-  /* text-decoration: none; */
-  text-decoration: line-through underline wavy red;
+  text-decoration: none;
+  /* text-decoration: line-through underline wavy red; */
 
 
   /* 
