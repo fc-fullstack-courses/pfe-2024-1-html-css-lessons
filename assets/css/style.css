@@ -70,6 +70,33 @@ h2 {
     none | capitalize | uppercase | lowercase
   */
   text-transform: capitalize;
+
+  /* 
+    керує відображенням підреслень 
+    та деяких інших декоріцій тексту
+
+    text-decoration-line + text-decoration-style + text-decoration-color
+  */
+  /* text-decoration: none; */
+  text-decoration: line-through underline wavy red;
+
+
+  /* 
+    тип лінії декорації
+    none | underline | overline | line-through
+  */
+  /* text-decoration-line: line-through underline; */
+
+  /* 
+    визначає стиль ліній
+    solid | double | dotted | dashed | wavy
+  */
+  /* text-decoration-style: wavy;  */
+  /* 
+    колір декорацій
+      за замовчанням співпадає з кольором тексту
+  */
+  /* text-decoration-color: red;  */
 }
 
 /*
