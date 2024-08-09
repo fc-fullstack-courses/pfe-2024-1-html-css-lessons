@@ -49,9 +49,17 @@ p {
     normal | italic | oblique
   */
   font-style: italic;
+
+  text-align: justify;
 }
 
 h2 {
+  /* 
+    керування горизонтальним розміщенням тексту
+    left | right | center | justify
+  */
+  text-align: center;
+
   /* font-size: 16px; */
   /* font-weight: normal; */
 }
