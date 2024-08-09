@@ -12,4 +12,22 @@
   display: inline;
   font-size: 30px;
   background-color: lime;
+  /* 
+  у рядкових не працює
+  width: 500px;
+  height: 500px; 
+  */
+}
+
+.custom-block {
+  background-color: brown;
+  color: white;
+  /* 
+    встановлюємо ширину елементу
+  */
+  width: 500px;
+  /* 
+    встановлюємо висоту елементу
+  */
+  height: 500px;
 }
