@@ -43,6 +43,12 @@ p {
     normal (400, за замовчанням для тексту ) | bold (700, заголовки)
   */
   /* font-weight: bold; */
+
+  /* 
+    курсивність тексту
+    normal | italic | oblique
+  */
+  font-style: italic;
 }
 
 h2 {
