@@ -64,6 +64,14 @@ h2 {
   /* font-weight: normal; */
 }
 
+.link {
+  /* 
+    керує відображенням великих / маленьких літер у тексті
+    none | capitalize | uppercase | lowercase
+  */
+  text-transform: capitalize;
+}
+
 /*
   селектор за назвою тегу
     діє на всі елементи на сторінці зі співпавшою назвою
