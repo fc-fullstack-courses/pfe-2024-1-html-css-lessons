@@ -122,6 +122,18 @@
   */
 }
 
+.inline-block-elem {
+  display: inline-block;
+  background-color: blueviolet;
+  color: white;
+
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  border: 5px solid blue;
+  margin: 20px;
+}
+
 .custom-block {
   background-color: brown;
   color: white;
