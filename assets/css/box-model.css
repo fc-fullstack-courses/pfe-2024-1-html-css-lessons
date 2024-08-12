@@ -135,6 +135,10 @@
   height: 500px;
 }
 
+.container {
+  border: 10px solid black;
+}
+
 .message-container {
   background-color: darkcyan;
   width: 500px;
@@ -149,4 +153,21 @@
 
 .message-text {
   color: white;
+}
+
+.message-1-margin {
+  margin-left: auto;
+  margin-right: auto;
+
+  /* margin: 0 auto; */
+}
+
+.message-2-margin {
+  margin-top: 50px;
+}
+
+.message-3-margin {
+  margin-top: -90px;
+  /* margin-left: -1000px; */
+  margin-bottom: 0;
 }
