@@ -42,7 +42,10 @@
   */
   padding: 100px 20px 50px;
 
-  /* 
+  /*  padding-left - лівий паддінг
+    padding-right - правий
+    padding-top - верхній
+    padding-bottom - нижній
     padding-left: 10px;
     padding-right: 30px;
     padding-top: 20px;
@@ -86,6 +89,26 @@
   border-top-width: 50px;
   border-top-style: double;
   border-top-color: orange;
+}
+
+.margin {
+  /* 
+    маржини (зовнішні відступи від елемента)
+    
+    margin-left - лівий маржин
+    margin-right - правий
+    margin-top - верхній
+    margin-bottom - нижній
+  */
+  margin: 50px;
+  
+  /* 
+    margin: 50px 20px;
+
+    margin: 50px 30px 80px;
+
+    margin: 50px 10px 15px 7px; 
+  */
 }
 
 .inline-elem {
