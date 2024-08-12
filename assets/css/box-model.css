@@ -51,6 +51,43 @@
   padding: 20px 30px 55px 10px;
 }
 
+.border {
+  /* 
+    рамки для коробок
+  */
+  border: 5px solid red;
+
+  /* розміри рамки */
+  border-width: 5px;
+
+  /* border-width: 5px 0 0 0; */
+
+  /* 
+    стиль рамки 
+    border-style: none;
+    solid | hidden | dotted | dashed | double | groove | ridge | inset | outset
+  */
+  border-style: solid;
+
+  /* 
+    колір рамки
+  */
+  border-color: red;
+
+  /*  
+    рамка чисто на одній стороні
+    border-top
+    border-right
+    border-bottom
+    border-left
+  */
+  border-top: 50px double orange;
+
+  border-top-width: 50px;
+  border-top-style: double;
+  border-top-color: orange;
+}
+
 .inline-elem {
   display: inline;
   font-size: 30px;
