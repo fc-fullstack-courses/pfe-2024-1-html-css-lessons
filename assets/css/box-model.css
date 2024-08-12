@@ -1,3 +1,12 @@
+/* 
+  універсальний селектор вибирає всі елементи
+  специфічність : 0
+*/
+* {
+  box-sizing: border-box;
+  /* padding: 0;
+  margin: 0; */
+}
 
 .block-elem {
   /* 
@@ -142,8 +151,8 @@
   display: inline-block;
   background-color: aquamarine;
   font-size: 30px;
-  /* border: 10px solid red; */
-  /* padding: 40px; */
+  border: 10px solid red;
+  padding: 40px;
   /* margin: 30px; */
   /* 
     відсотки ширини, паддінгів та маржинів беруться від ширини батька
