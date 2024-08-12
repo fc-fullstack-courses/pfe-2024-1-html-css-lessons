@@ -101,7 +101,7 @@
     margin-bottom - нижній
   */
   margin: 50px;
-  
+
   /* 
     margin: 50px 20px;
 
@@ -133,4 +133,20 @@
     встановлюємо висоту елементу
   */
   height: 500px;
+}
+
+.message-container {
+  background-color: darkcyan;
+  width: 500px;
+  padding: 10px;
+  border: 10px solid red;
+  margin-bottom: 10px;
+}
+
+.message-heading {
+  color: white;
+}
+
+.message-text {
+  color: white;
 }
