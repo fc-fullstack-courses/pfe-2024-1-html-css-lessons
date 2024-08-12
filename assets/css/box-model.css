@@ -6,6 +6,9 @@
   display: block;
   background-color: aqua;
   font-size: 30px;
+}
+
+.padding {
   /* 
     паддінги (внутрішні відступи)
 
