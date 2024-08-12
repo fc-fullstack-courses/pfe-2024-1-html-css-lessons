@@ -134,6 +134,25 @@
   margin: 20px;
 }
 
+.elem {
+  display: inline-block;
+  background-color: aquamarine;
+  font-size: 30px;
+  /* border: 10px solid red; */
+  /* padding: 40px; */
+  /* margin: 30px; */
+  /* 
+    відсотки ширини, паддінгів та маржинів беруться від ширини батька
+    рамки не можуть вказуватися відсотками
+  */
+  width: 50%;
+  /* 
+    відсотки висоти беруться від висоти батька тількі якщо батько чітко вказав цю висоту
+    а не розраховує її зі свого контенту
+  */
+  /* height: 50%; */
+}
+
 .custom-block {
   background-color: brown;
   color: white;
