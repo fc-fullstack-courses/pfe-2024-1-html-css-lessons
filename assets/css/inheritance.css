@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* color: white; */
+}
+
+.article {
+  border: 10px dashed lime;
+  padding: 20px;
+  background-color: darkblue;
+  font-style: italic;
+  color: yellow;
+}
+
+.article-heading {
+  margin-bottom: 10px;
+}
+
+.article-text {
+  /* inherit - примусове успадкування значення від батьківських елементів */
+  border: inherit;
+  margin-bottom: 10px;
+  /* 
+    initial примусове вимкнення успадкування значення від батьківських елементів
+    встановлюється значення, яке є типовим для браузера
+  */
+  font-style: initial;
+  /* color: initial; */
+}
+
+.link {
+  /* color: white; */
+  color: inherit;
+  text-decoration: none;
+}
