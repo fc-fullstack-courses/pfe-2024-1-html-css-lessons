@@ -2,8 +2,27 @@
   border: 5px solid red;
   margin: 20px;
 
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 
   border-radius: 50%;
+
+  /* 
+    керує режимом стиснення картинок / відео
+    fill | contain | cover | none | scale-down
+  */
+  object-fit: cover;
+}
+
+.wide-img {
+  /* 
+    зсуває фокус для картинок з встановленним object-fit
+    по горизонталі та вертикалі
+    left | right | center | top | bottom
+  */
+  object-position: center;
+}
+
+.tall-img {
+  object-position: center;
 }
