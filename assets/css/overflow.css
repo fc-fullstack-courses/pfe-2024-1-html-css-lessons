@@ -54,3 +54,24 @@
   text-overflow: ellipsis;
 }
 
+.div {
+  border: 10px solid black;
+  background: darkcyan;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 40px;
+  
+}
+
+.hidden-1 {
+  display: none;
+}
+
+.hidden-2 {
+  visibility: hidden;
+}
+
+.hidden-3 {
+  opacity: 0;
+}
