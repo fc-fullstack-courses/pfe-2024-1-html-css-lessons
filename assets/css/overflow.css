@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: darkcyan;
+  color: white;
+  font-size: 24px;
+  border: 10px solid red;
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+  /* 
+    керування перевповненням елемента
+    visible | hidden | scroll | auto
+  */
+  overflow: auto;
+
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden; */
+}
+
+.inner {
+  /* width: 600px; */
+  border: 5px solid yellow;
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+.btn {
+  width: 200px;
+  /* height: 40px; */
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: aqua;
+  border: 2px solid red;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
