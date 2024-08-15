@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.list {
+  /* 
+    керування стилями списку
+
+    скорочення від
+      list-style-type - тип маркера з вбудованих
+      square | circle | disc | decimal | lower-roman | upper-roman | none ...
+      list-style-image - встановить маркером вашу картинку. Взаємовиключна з style-type
+      list-style-position - розміщенням маркерів відносно паддінгів
+        inside | outside
+  */
+  /* list-style: none; */
+  /* list-style-type: disc; */
+  list-style-image: url('../icons/free-shipping.png');
+  list-style-position: outside;
+}
+
+.ol {}
+
+.ul {}
+
+.li {
+  /* display: inline-block; */
+}
