@@ -136,3 +136,23 @@ body {
   width: var(--size);
   height: var(--size);
 }
+
+.link {
+  display: inline-block;
+  color: blue;
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid black;
+  width: 120px;
+  background: lightgreen;
+  text-align: center;
+}
+
+/* 
+  псевдоклас not(X)
+  X - селектор для якого стилі які будуть указані 
+  в правилі НЕ мають бути застосовані
+*/
+.link:not(button, div, ul>li) {
+  font-style: italic;
+}
