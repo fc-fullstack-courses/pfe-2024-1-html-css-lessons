@@ -156,3 +156,22 @@ body {
 .link:not(button, div, ul>li) {
   font-style: italic;
 }
+
+/* 
+  :link - стилізація посилань, на які користувач не переходив
+*/
+
+.link:link {
+  /* text-decoration: underline solid; */
+}
+
+/* 
+  :visited - стилізація посилань, на які користувач вже переходив
+*/
+
+.link:visited {
+  text-decoration: none;
+  color: purple;
+  background-color: lime;
+}
+
