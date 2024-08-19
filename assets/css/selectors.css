@@ -175,3 +175,16 @@ body {
   background-color: lime;
 }
 
+/* 
+  :hover - особливо стилізує елемент, якщо користувач навів на нього мишею
+*/
+
+.article:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.link:hover {
+  color: white;
+  background: darkcyan;
+}
