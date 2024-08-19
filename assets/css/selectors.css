@@ -179,14 +179,22 @@ body {
   :hover - особливо стилізує елемент, якщо користувач навів на нього мишею
 */
 
-.article:hover {
+.article:hover,
+.article:focus {
   background-color: blueviolet;
   color: white;
 }
 
-.link:hover {
+/*
+  :focus - особливо стилізує елемент, якщо на ньому є фокус
+  (фокус отримуємо при кліку або натисканню клавіші tab)
+*/
+
+.link:hover,
+.link:focus {
   color: white;
   background: darkcyan;
+  outline: none;
 }
 
 /* 
