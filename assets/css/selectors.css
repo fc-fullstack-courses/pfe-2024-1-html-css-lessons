@@ -77,7 +77,7 @@ h3 {
   застосовує правило для селектору B якщо він сидить 
   напряму за елементом з селектором A на одному рівні вкладеності
 */
-h2+p {
+h2 + p {
   padding: 20px;
 }
 
@@ -95,13 +95,10 @@ h2 ~ p {
 
 } */
 
-
-img[alt="cat"]#my-cat.img {
-
+img[alt='cat']#my-cat.img {
 }
 
 .text.article-text {
-
 }
 
 /* 
@@ -121,14 +118,11 @@ body {
 
 /* html, */
 :root {
-
   /* 
     --назва-змінної: значення_css_властивості;
   */
   --text-color: green;
   --big-padding: 40px;
-
-
 }
 
 .square-img {
@@ -153,7 +147,7 @@ body {
   X - селектор для якого стилі які будуть указані 
   в правилі НЕ мають бути застосовані
 */
-.link:not(button, div, ul>li) {
+.link:not(button, div, ul > li) {
   font-style: italic;
 }
 
@@ -215,7 +209,6 @@ body {
   text-align: center;
 }
 
-
 /* 
   :first-child - додає особливі стилі до елементу
   якщо той є першою дитиною батьківського елементу
@@ -233,4 +226,21 @@ body {
 .li:last-child {
   font-style: italic;
   text-transform: uppercase;
+}
+
+/* 
+  :nth-child(N) - додає особливі стилі до елементу
+  якщо той відповідає значенню N
+    N може бути:
+      1) числом
+      2) вираз вигляду (An + B)
+      де A, В - числа
+      3) слова even та odd
+*/
+/* .li:nth-child(3n + 1) {
+  background-color: chocolate;
+} */
+
+.li:nth-child(odd) {
+  background-color: chocolate;
 }
