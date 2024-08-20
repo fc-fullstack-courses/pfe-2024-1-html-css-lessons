@@ -206,3 +206,31 @@ body {
   color: red;
   border-color: red;
 }
+
+.li {
+  max-width: 250px;
+  padding: 10px 15px;
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+}
+
+
+/* 
+  :first-child - додає особливі стилі до елементу
+  якщо той є першою дитиною батьківського елементу
+*/
+/* .first-li, 
+.list > :first-child { */
+.li:first-child {
+  color: yellow;
+  font-weight: bold;
+}
+/* 
+  :last-child - додає особливі стилі до елементу
+  якщо той є останньою дитиною батьківського елементу
+*/
+.li:last-child {
+  font-style: italic;
+  text-transform: uppercase;
+}
