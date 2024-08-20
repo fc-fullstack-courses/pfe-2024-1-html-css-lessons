@@ -49,13 +49,13 @@ h1 {
   bottom: -50px;
 }
 
-.box:nth-child(3) {
+/* .box:nth-child(3) {
   position: fixed;
 
-  /* top: 100vh; */
+  top: 100vh; 
   bottom: 0;
   right: 0;
-}
+} */
 
 .relative {
   position: relative;
@@ -68,4 +68,29 @@ h1 {
 
 .second-relative-box {
   left: 70px;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.fixed-top {
+  top: 10px;
+}
+
+.fixed-left {
+  left: 30px;
+}
+
+.fixed-right {
+  right: 50px;
+}
+
+.fixed-bottom {
+  bottom: 45.27px;
+}
+
+.fixed-center {
+  top: 47vh;
+  left: 47vw;
 }
