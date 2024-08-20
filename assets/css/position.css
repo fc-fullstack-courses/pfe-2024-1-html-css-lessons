@@ -62,6 +62,12 @@ h1 {
   top: 0;
 }
 
+.box:nth-child(1) {
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+
 .relative {
   position: relative;
 }
