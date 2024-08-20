@@ -1,0 +1,30 @@
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+.outer {
+  width: 800px;
+  height: 200vh;
+  background-color: aqua;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 600px;
+  height: 50%;
+  background-color: brown;
+  margin: 0 auto;
+}
+
+.box {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  border: 5px solid yellow;
+}
+
