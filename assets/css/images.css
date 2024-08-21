@@ -4,7 +4,8 @@
   padding: 0;
 }
 
-.img {
+.img,
+.fake-owl {
   border: 5px solid red;
   margin: 20px;
 
@@ -12,6 +13,9 @@
   height: 400px;
 
   border-radius: 50%;
+}
+
+.img {
 
   /* 
     керує режимом стиснення картинок / відео
@@ -48,4 +52,12 @@
 
   /* object-position для фонових зображень */
   background-position: left bottom;
+}
+
+.fake-owl {
+  display: inline-block;
+  background-image: url('../images/owl.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
