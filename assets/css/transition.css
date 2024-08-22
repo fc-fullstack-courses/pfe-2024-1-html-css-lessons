@@ -26,9 +26,10 @@
 }
 
 .link {
+  position: relative;
   text-decoration: none;
   padding: 10px 20px;
-  border: 3px solid black;
+  border: 2px solid black;
   font-size: 16px;
   background-color: darkcyan;
   color: white;
@@ -68,6 +69,24 @@
   outline: none;
   background-color: dodgerblue;
   border-color: red;
+  /* transition: all 1000ms ease 0ms; */
+}
+
+.link::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0;
+  background-color: lime;
+
+  transition: width 0.4s ease-in;
+}
+
+.link:hover::before {
+  width: 100%;
 }
 
 .container {
