@@ -289,6 +289,13 @@ body {
   text-decoration: underline solid;
 }
 
+/* 
+  ::selection - особливі стилі для виділенного елементу
+*/
+.article-text::selection {
+  background-color: limegreen;
+}
+
 .li-item {
   list-style-image: url('../icons/free-shipping.png');
 }
