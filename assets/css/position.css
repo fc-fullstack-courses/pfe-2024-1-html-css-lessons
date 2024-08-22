@@ -107,3 +107,28 @@ h1 {
   top: 47vh;
   left: 47vw;
 }
+
+.container {
+  position: relative;
+  height: 650px;
+  width: 650px;
+  top: 200px;
+  left: 600px; 
+}
+.div-one {
+  left: 400px;
+}
+.div-two {
+  right: 400px;
+}
+.border{
+  border-radius: 50%;
+  border: 5px solid #000;
+  background-color: black;
+}
+.position{
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  bottom: 400px;
+}
