@@ -1,0 +1,75 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  padding: 20px;
+  background-color: aquamarine;
+  border-bottom: 2px solid black;
+}
+
+.nav {
+
+}
+
+.nav-list {
+  font-size: 0;
+}
+
+.nav-list-item {
+  display: inline-block;
+}
+
+.nav-list-item + .nav-list-item {
+  margin-left: 5px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 3px solid black;
+  font-size: 16px;
+  background-color: darkcyan;
+  color: white;
+
+  /* 
+    анімування переходів
+  */
+  transition: all 300ms linear 50ms;
+
+  /* 
+    кого ви анімуєте
+    вказуєти назву одного або декількох властивостей або all
+  */
+  /* transition-property: color, background-color; */
+  /* transition-property: all; */
+
+  /* 
+    час анімації
+    рекомендовано час анімації не ставити більше 500ms
+  */
+  /* transition-duration: 300ms; */
+
+  /* 
+    керує плавністю анімації
+    linear | ease | ease-in | ease-out |  ease-in-out
+  */
+  /* transition-timing-function: linear; */
+
+  /* 
+    затримка перед початком переходу
+  */
+  /* transition-delay: 50ms; */
+}
+
+.link:hover,
+.link:focus {
+  outline: none;
+  background-color: dodgerblue;
+  border-color: red;
+}
+
+main {
+  min-height: 200vh;
+}
