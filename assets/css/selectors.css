@@ -7,15 +7,15 @@
   селектор який працює для всіх елементів з атрибутом title
 */
 [title] {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 /* 
   селектор який працює для усіх елементів з атрибутом title з значенням Test title
 */
 [title='Test title'] {
-  font-weight: bold;
-  font-size: 24px;
+  /* font-weight: bold;
+  font-size: 24px; */
 }
 
 /* 
@@ -23,7 +23,7 @@
   зі слова other
 */
 [title^='other'] {
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 /* 
@@ -31,8 +31,8 @@
   animal
 */
 [title~='animal'] {
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
 }
 
 /* 
@@ -40,18 +40,18 @@
   одночасно застосовує правило для кількох селекторів, розділених комами
 */
 
-h1,
+/* h1,
 h2,
 h3 {
   text-align: right;
-}
+} */
 
 /* 
   Комбінатор дитячого елементу (A>B)
   застосовує правило для селектору B якщо він напряму сидить у елементі
   з селектором A
 */
-.article > p {
+/* .article > p {
   color: red;
 }
 
@@ -61,25 +61,25 @@ h3 {
 
 .a {
   color: red;
-}
+} */
 
 /* 
   Комбінатор елементу - нащадка (A B)
   застосовує правило для селектору B якщо він сидить 
   на будь-якому рівні вкладеності у елементі з селектором A
 */
-.article p {
+/* .article p {
   font-style: italic;
-}
+} */
 
 /* 
   Комбінатор прямих сусідів (A + B)
   застосовує правило для селектору B якщо він сидить 
   напряму за елементом з селектором A на одному рівні вкладеності
 */
-h2 + p {
+/* h2 + p {
   padding: 20px;
-}
+} */
 
 /*
   Комбінатор всіз сусідів (A ~ B)
@@ -87,19 +87,19 @@ h2 + p {
   за елементом з селектором A на одному рівні вкладеності
 */
 
-h2 ~ p {
+/* h2 ~ p {
   text-decoration: line-through solid black;
-}
+} */
 
 /* .nav > h2 + ul {
 
 } */
 
-img[alt='cat']#my-cat.img {
+/* img[alt='cat']#my-cat.img {
 }
 
 .text.article-text {
-}
+} */
 
 /* 
   CSS - змінні
@@ -107,7 +107,7 @@ img[alt='cat']#my-cat.img {
 
 body {
   /* застосування CSS - змінних */
-  color: var(--text-color);
+  /* color: var(--text-color); */
 }
 
 /* 
@@ -132,14 +132,14 @@ body {
 }
 
 .link {
-  display: inline-block;
+  /* display: inline-block;
   color: blue;
   padding: 10px 15px;
   text-decoration: none;
   border: 1px solid black;
   width: 120px;
   background: lightgreen;
-  text-align: center;
+  text-align: center; */
 }
 
 /* 
@@ -148,7 +148,7 @@ body {
   в правилі НЕ мають бути застосовані
 */
 .link:not(button, div, ul > li) {
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 /* 
@@ -164,9 +164,9 @@ body {
 */
 
 .link:visited {
-  text-decoration: none;
+  /* text-decoration: none;
   color: purple;
-  background-color: lime;
+  background-color: lime; */
 }
 
 /* 
@@ -175,8 +175,8 @@ body {
 
 .article:hover,
 .article:focus {
-  background-color: blueviolet;
-  color: white;
+  /* background-color: blueviolet;
+  color: white; */
 }
 
 /*
@@ -186,9 +186,9 @@ body {
 
 .link:hover,
 .link:focus {
-  color: white;
+  /* color: white;
   background: darkcyan;
-  outline: none;
+  outline: none; */
 }
 
 /* 
@@ -197,16 +197,16 @@ body {
 */
 
 .link:active {
-  color: red;
-  border-color: red;
+  /* color: red;
+  border-color: red; */
 }
 
 .li {
-  max-width: 250px;
+  /* max-width: 250px;
   padding: 10px 15px;
   background-color: lightseagreen;
   color: white;
-  text-align: center;
+  text-align: center; */
 }
 
 /* 
@@ -216,16 +216,16 @@ body {
 /* .first-li, 
 .list > :first-child { */
 .li:first-child {
-  color: yellow;
-  font-weight: bold;
+  /* color: yellow;
+  font-weight: bold; */
 }
 /* 
   :last-child - додає особливі стилі до елементу
   якщо той є останньою дитиною батьківського елементу
 */
 .li:last-child {
-  font-style: italic;
-  text-transform: uppercase;
+  /* font-style: italic;
+  text-transform: uppercase; */
 }
 
 /* 
@@ -242,5 +242,57 @@ body {
 } */
 
 .li:nth-child(odd) {
-  background-color: chocolate;
+  /* background-color: chocolate; */
+}
+
+.article {
+  width: 600px;
+  padding: 20px;
+  border: 5px solid red;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.article-heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.article-text {
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
+.ul {
+  padding-left: 20px;
+}
+
+/* 
+  ::first-letter - особливо стилізує першу літтеру
+  блочного елементу, якщо пере нею немає інших елементів
+  (картинки, таблиці і тд)
+*/
+.article-text::first-letter {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+}
+/* 
+  ::first-line - особливо стилізує перший рядок тексту
+*/
+.article-text::first-line {
+  background-color: aquamarine;
+  text-decoration: underline solid;
+}
+
+.li-item {
+  list-style-image: url('../icons/free-shipping.png');
+}
+
+.li-item::first-letter {
+  color: red;
 }
