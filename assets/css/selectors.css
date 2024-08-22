@@ -254,6 +254,7 @@ body {
 }
 
 .article-heading {
+  position: relative;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -295,6 +296,37 @@ body {
 .article-text::selection {
   background-color: limegreen;
 }
+/* 
+  ::before - визуальний псевдоелемент
+  встановлюється першим нащадком у селектора
+  за замовчанням інлайновий
+  без властивості content  не відобразиться
+*/
+.article-heading::before,
+.article-heading::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.article-heading::before {
+  left: 0;
+  background-color: brown;
+}
+/* 
+  ::before - визуальний псевдоелемент
+  встановлюється останнім нащадком у селектора
+  за замовчанням інлайновий
+  без властивості content  не відобразиться
+*/
+.article-heading::after {
+  background-color: rgb(42, 128, 165);
+  right: 0;
+}
+
 
 .li-item {
   list-style-image: url('../icons/free-shipping.png');
