@@ -70,6 +70,47 @@
   border-color: red;
 }
 
+.container {
+  margin: 20px 0;
+  border: 5px solid black;
+}
+
+.inner {
+  padding: 20px;
+  width: 200px;
+  background-color: teal;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  /* margin: 0 auto; */
+
+  transition: width 3s;
+}
+
+.container:hover .inner {
+  width: 100%;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
 main {
   min-height: 200vh;
 }
