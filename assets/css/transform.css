@@ -102,3 +102,11 @@ img {
   /* transform: translate3d(0, 0, 600px); */
   transform: translateX(0) translateY(0) translateZ(600px);
 }
+
+.scale3d:hover {
+  /* 
+    scale3d(x, y, z)
+    зміни на вісі z видні тількі якщо скористатися іншими властистями
+  */
+  transform: scale3d(1, 1, 0.5) translateZ(250px);
+}
