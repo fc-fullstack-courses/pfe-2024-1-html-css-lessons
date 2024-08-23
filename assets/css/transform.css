@@ -91,3 +91,14 @@ img {
   */
   perspective: 500px;
 }
+
+.translate3d:hover {
+  /* 
+    translate3d(x, y, z) пересуеває елемент по троьх осях
+    translateX
+    translateY
+    translateZ
+  */
+  /* transform: translate3d(0, 0, 600px); */
+  transform: translateX(0) translateY(0) translateZ(600px);
+}
