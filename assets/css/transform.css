@@ -110,3 +110,12 @@ img {
   */
   transform: scale3d(1, 1, 0.5) translateZ(250px);
 }
+
+.rotate3d:hover {
+  /* 
+    rotate3d(x,y,z, deg)
+    x,y,z - коефіціенти для формування вектору напрямку
+    deg - на скільки елемент повертати 
+  */
+  transform: rotate3d(1, 1, 1, 90deg);
+}
