@@ -6,7 +6,7 @@
   background-color: aqua;
   padding: 16px;
 
-  transition: transform 0.3s linear;
+  transition: transform 2s linear;
 }
 
 .section-heading {
@@ -50,4 +50,15 @@
   */
   /* transform: scale(2, -1); */
   transform: scaleX(2) scaleY(-1);
+}
+
+
+.rotate:hover {
+  /* 
+    rotate повертає елемент на вказане значення
+    xdeg - обертає на вказану кількість градусів
+    xrad 1 радіан десь 58 градусів
+    xturn - кількість обертів
+  */
+  transform: rotate(4.5turn);
 }
