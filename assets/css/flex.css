@@ -58,8 +58,18 @@
  
 
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
+
+
+  /* 
+  flex-wrap - керує кількістю ліній у контейнері
+    nowrap - немає обертання дітей, 1 лінія у контейнері (за замовчанням)
+    wrap - додає нові лінії до контейнеру поки всі діти не будуть розміщені
+    wrap-reverse -  додає нові лінії до контейнеру поки всі діти не будуть розміщені
+                    при цьому може змінювати напрямок бічної вісі
+    */
+  flex-wrap: wrap-reverse; 
 
   border: 5px solid red;
 }
