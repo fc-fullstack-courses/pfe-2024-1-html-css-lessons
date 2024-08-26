@@ -5,10 +5,15 @@
 }
 
 .container {
+  /* 
+    display: flex - перетворює елемент на флекс-контейнер
+  */
+  display: flex;
   border: 5px solid red;
 }
 
 .flex-item {
+  /* display: inline-block; */
   border: 3px solid black;
   font-size: 30px;
   padding: 15px;
