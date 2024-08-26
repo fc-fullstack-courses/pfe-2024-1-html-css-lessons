@@ -57,9 +57,9 @@
     align-items: center;  */
  
 
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-end;
 
 
   /* 
@@ -69,7 +69,20 @@
     wrap-reverse -  додає нові лінії до контейнеру поки всі діти не будуть розміщені
                     при цьому може змінювати напрямок бічної вісі
     */
-  flex-wrap: wrap-reverse; 
+  flex-wrap: wrap; 
+
+  /* 
+    align-content - керує простором та вирівнюванням рядків відносно поперечної вісі
+      stretch - ділить вільний простір у поперечної вісі порівну між лініями (за замовчанням)
+      flex-start - розміщуються з початку поперечної вісі, простір у кінці 
+      flex-end - розміщуються у кінці поперечної вісі, простір зосереджено на початку 
+      center - розміщуються в центрі, простір на початку та у кінці
+      space-evenly - однакова відстань між рядками та стінками  
+      space-around - елементи в рядку штовхаються на однакову відстань в обидва боки
+      space-between - крайні елементи біля стінок, простір рівномірно між рядків
+  */
+  align-content: flex-start;
+
 
   border: 5px solid red;
 }
@@ -90,3 +103,7 @@
 .flex-item:nth-child(5) {
   font-size: 12px;
 } */
+
+.flex-item:nth-child(5) {
+  width: 150px;
+}
