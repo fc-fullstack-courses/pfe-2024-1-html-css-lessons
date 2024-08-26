@@ -19,7 +19,7 @@
       row-reverse - зправа наліво
       column-reverse - знизу уверх
   */
-  flex-direction: column-reverse;
+  /* flex-direction: column-reverse; */
 
   /* 
     justify-content - керує розміщенням елементу вздовж головної вісі
@@ -34,7 +34,7 @@
       space-between - елементи відштохуються один від одного але не від стінок контейнера
                       (х тількі між елементами)
   */
-  justify-content: center;
+  /* justify-content: center; */
   
   /* 
     align-items - керує розміщенням флекс-дітей вздовж поперечної вісі
@@ -44,6 +44,21 @@
       center - розміщує по центу поперечної осі
       baseline - вірівнює елементи вздовж базової лінії
   */
+  /* align-items: flex-start; */
+
+  
+    /* flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;  */
+ 
+  
+    /* flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  */
+ 
+
+  flex-direction: row;
+  justify-content: space-between;
   align-items: flex-start;
 
   border: 5px solid red;
