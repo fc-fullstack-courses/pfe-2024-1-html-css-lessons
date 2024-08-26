@@ -19,7 +19,7 @@
       row-reverse - зправа наліво
       column-reverse - знизу уверх
   */
-  flex-direction: column;
+  flex-direction: column-reverse;
 
   /* 
     justify-content - керує розміщенням елементу вздовж головної вісі
@@ -34,8 +34,17 @@
       space-between - елементи відштохуються один від одного але не від стінок контейнера
                       (х тількі між елементами)
   */
-  justify-content: space-between;
+  justify-content: center;
   
+  /* 
+    align-items - керує розміщенням флекс-дітей вздовж поперечної вісі
+      stretch - розтягує елемент вздово бічної вісі (за замовчанням)
+      flex-start - розміщує флекс дітей від початку осі до її кінця
+      flex-end - розміщує флекс дітей від кінця осі до початку
+      center - розміщує по центу поперечної осі
+      baseline - вірівнює елементи вздовж базової лінії
+  */
+  align-items: flex-start;
 
   border: 5px solid red;
 }
@@ -48,3 +57,11 @@
   background-color: dodgerblue;
   color: white;
 }
+
+/* .flex-item:nth-child(3) {
+  font-size: 70px;
+}
+
+.flex-item:nth-child(5) {
+  font-size: 12px;
+} */
