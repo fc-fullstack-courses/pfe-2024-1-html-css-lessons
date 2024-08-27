@@ -209,6 +209,17 @@
   flex-shrink: 0.5;
 }
 
+.flex {
+  /* 
+    властивість-скорочення від flex-grow flex-shrink flex-basis
+  */
+  /* flex-grow: 2;
+  flex-shrink: 5;
+  flex-basis: 300px; */
+  flex: 2 5 300px;
+  /* flex: 1; */
+}
+
 /* .flex-item:nth-child(3) {
   font-size: 70px;
 }
