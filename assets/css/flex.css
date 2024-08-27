@@ -102,7 +102,7 @@
     flex-flow - скорочення властивостей flex-direction
                 та flex-wrap
   */
-  flex-flow: row wrap-reverse;
+  /* flex-flow: row wrap-reverse; */
   align-items: center;
   justify-content: space-between;
 
@@ -137,7 +137,16 @@
       негативні значення переносять елемент в початок рядка
       при однакових значеннях ордеру елементи выдображаються по їх позицыъ в html
   */
-  order: -1;
+  /* order: -1; */
+}
+
+.align-self {
+  /* 
+    align-self -  аналог align-items але вказується 
+                  конкретно до флекс-дітей
+                  для конкретної дитини важливіший за align-items
+  */
+  align-self: flex-start;
 }
 
 /* .flex-item:nth-child(3) {
