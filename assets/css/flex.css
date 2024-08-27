@@ -102,9 +102,9 @@
     flex-flow - скорочення властивостей flex-direction
                 та flex-wrap
   */
-  /* flex-flow: row wrap-reverse; */
+  flex-flow: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
 
   border: 5px solid red;
@@ -127,6 +127,7 @@
   padding: 15px;
   background-color: dodgerblue;
   color: white;
+  /* margin: auto; */
 }
 
 .order {
@@ -147,6 +148,10 @@
                   для конкретної дитини важливіший за align-items
   */
   align-self: flex-start;
+}
+
+.margin-1 {
+  margin: auto;
 }
 
 /* .flex-item:nth-child(3) {
