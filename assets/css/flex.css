@@ -91,11 +91,18 @@
   align-items: center; */
 
 
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
+  /* flex-direction: row;
+  flex-wrap: wrap-reverse; */
   justify-content: flex-end;
   align-content: flex-start;
   align-items: stretch;
+
+
+  /* 
+    flex-flow - скорочення властивостей flex-direction
+                та flex-wrap
+  */
+  flex-flow: row wrap-reverse;
 
 
   border: 5px solid red;
