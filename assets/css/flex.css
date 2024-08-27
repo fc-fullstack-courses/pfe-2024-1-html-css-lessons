@@ -10,7 +10,7 @@
   */
   display: flex;
   height: 600px;
-  width: 500px;
+  width: 800px;
 
   /* 
     flex-direction - змінює напрямок головної вісі флекс контейнера
@@ -93,9 +93,9 @@
 
   /* flex-direction: row;
   flex-wrap: wrap-reverse; */
-  justify-content: flex-end;
+  /* justify-content: flex-end;
   align-content: flex-start;
-  align-items: stretch;
+  align-items: stretch; */
 
 
   /* 
@@ -103,9 +103,21 @@
                 та flex-wrap
   */
   flex-flow: row wrap-reverse;
+  align-items: center;
+  justify-content: space-between;
 
 
   border: 5px solid red;
+}
+
+.flex-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 5px dashed lime;
+  height: 300px;
+  width: 180px;
 }
 
 .flex-item {
