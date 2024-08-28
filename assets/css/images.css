@@ -5,14 +5,26 @@
 }
 
 .img,
-.fake-owl {
+.fake-owl,
+.fake-diamond {
   border: 5px solid red;
+  background-color: darkcyan;
   margin: 20px;
 
   width: 400px;
   height: 400px;
 
   border-radius: 50%;
+}
+
+.fake-diamond {
+  background-image: url('../icons/diamond.svg');
+}
+
+.svg {
+  width: 100px;
+  height: 100px;
+  /* fill: white; */
 }
 
 .img {
