@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: orange;
+  padding: 20px 30px;
+}
+
+.container {
+  display: block;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 10px;
+  background-color: darkgray;
+}
+
+.article {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: dodgerblue;
+}
+
+.article h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: darkcyan;
+  color: white;
+}
