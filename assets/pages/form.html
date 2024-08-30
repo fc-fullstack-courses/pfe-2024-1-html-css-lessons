@@ -9,7 +9,7 @@
   <body>
     <h1>Forms</h1>
     <form>
-      <input placeholder="Ім'я" name="firstname" />
+      <input placeholder="Ім'я" name="firstname" value="Test" />
       <label for="lastname">Прізвище</label>
       <input id="lastname" name="lastname" />
       <label>
@@ -31,6 +31,23 @@
       <label>
         Дата народження
         <input type="date" name="birthday">
+      </label>
+      <p>Стать:</p>
+      <label>
+        <input type="radio" name="gender" value="male"> Чоловіча
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female"> Жіноча
+      </label>
+      <p>бажаний тариф</p>
+      <label>
+        <input type="radio" name="tariff" value="basic"> Базовий
+      </label>
+      <label>
+        <input type="radio" name="tariff" value="basic+"> Базовий+
+      </label>
+      <label>
+        <input type="radio" name="tariff" value="basic++"> Базовий++
       </label>
       <button type="submit">Відправити форму</button>
     </form>
