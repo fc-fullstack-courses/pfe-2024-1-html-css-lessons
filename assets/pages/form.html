@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/form.css">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Forms</h1>
-  <form>
-    <input placeholder="Ім'я" name="firstname">
-    <label for="lastname">Прізвище</label>
-    <input id="lastname" name="lastname">
-    <label>
-      Логін
-      <input name="login">
-    </label>
-    <button type="submit">Відправити форму</button>
-  </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form>
+      <input placeholder="Ім'я" name="firstname" />
+      <label for="lastname">Прізвище</label>
+      <input id="lastname" name="lastname" />
+      <label>
+        Логін
+        <input name="login" type="text" />
+      </label>
+      <label>
+        Електронна пошта
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Пароль
+        <input type="password" name="password" />
+      </label>
+      <label>
+        Вага в кг
+        <input type="number" name="weight" min="1" max="500" step="5"/>
+      </label>
+      <label>
+        Дата народження
+        <input type="date" name="birthday">
+      </label>
+      <button type="submit">Відправити форму</button>
+    </form>
+  </body>
 </html>
