@@ -57,6 +57,24 @@
       <label>
         <input type="radio" name="tariff" value="basic++"> Базовий++
       </label>
+      <fieldset>
+        <legend>Адреса користувача</legend>
+        <label>
+          Країна
+          <select name="country" id="country-select"  required>
+            <optgroup label="Європа">
+              <option value="UA">Україна</option>
+              <option selected value="UK">Великобританія</option>
+              <option value="FR">Франція</option>
+            </optgroup>
+            <optgroup label="Азія">
+              <option value="JP">Японія</option>
+              <option value="KR">Корея (нормальна)</option>
+            </optgroup>
+          </select>
+        </label>
+
+      </fieldset>
       <label>
         <input type="checkbox" name="agreed-to-terms" required> Чи погоджуєтесь з умовами нашого сайту
       </label>
