@@ -8,30 +8,30 @@
   </head>
   <body>
     <h1>Forms</h1>
-    <form>
+    <form class="form">
       <fieldset>
         <legend>Основні дані</legend>
-        <input placeholder="Ім'я" name="firstname" value="Test" />
+        <input placeholder="Ім'я" name="firstname" value="Test" class="text-input"/>
         <label for="lastname">Прізвище</label>
-        <input id="lastname" name="lastname" />
-        <label>
+        <input id="lastname" name="lastname" class="text-input"/>
+        <label class="text-label">
           Логін
-          <input name="login" type="text" pattern="[a-zA-Z][a-zA-Z0-9#!$]{7,31}" required />
+          <input name="login" type="text" pattern="[a-zA-Z][a-zA-Z0-9#!$]{7,31}" required class="text-input"/>
         </label>
-        <label>
+        <label  class="text-label">
           Електронна пошта
-          <input type="email" name="email" autocomplete="email" required />
+          <input type="email" name="email" autocomplete="email" required class="text-input"/>
         </label>
-        <label>
+        <label  class="text-label">
           Пароль
-          <input type="password" name="password" autocomplete="new-password" />
+          <input type="password" name="password" autocomplete="new-password" class="text-input"/>
         </label>
       </fieldset>
       
       
       <label>
         Вага в кг
-        <input type="number" name="weight" min="1" max="500" step="5"/>
+        <input type="number" name="weight" min="1" max="500" step="5" class="text-input"/>
       </label>
       <label>
         Дата народження
@@ -79,7 +79,7 @@
         до 
         даних
       </label>
-      <textarea placeholder="test" name="notes" id="notes" rows="50" cols="100" style="resize: none;"></textarea>
+      <textarea placeholder="test" name="notes" id="notes" rows="50" cols="50" style="resize: none;"></textarea>
       <label>
         <input type="checkbox" name="agreed-to-terms" required> Чи погоджуєтесь з умовами нашого сайту
       </label>
