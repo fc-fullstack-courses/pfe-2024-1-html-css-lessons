@@ -8,9 +8,19 @@
   мають йти перед основними правилами файлу
 */
 @import "./reset.css";
-@import url("./images.css");
+@import url("./font-face.css");
 
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  /* 
+    вказує назву шрифта або сімейства шрифта, які треба використати
+  */
+  font-family: "MagicFont", "Arial", "Verdana", cursive;
+
+  font-size: 32px;
+  text-align: center;
 }
