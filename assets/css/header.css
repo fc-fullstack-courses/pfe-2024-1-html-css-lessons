@@ -25,7 +25,22 @@
 }
 
 .menu {
-  border: 1px solid black;
+  border: 5px solid black;
   padding: 10px 15px;
   border-radius: 10px;
+}
+
+@media print {
+  /* 
+    все в фігурних дужках додається до осонвного файла якщо
+    медіазапит валідний
+  */
+  .page-heading {
+    font-size: 5rem;
+    color: blueviolet;
+  }
+
+  .menu {
+    border-color: red;
+  }
 }
