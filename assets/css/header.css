@@ -43,4 +43,23 @@
   .menu {
     border-color: red;
   }
-}
+
+/* 
+  min-width - працює для розмірів більше або дорівнює Х px
+  max-width - працює для розмірів меншье або дорівнює Х px
+*/
+/* @media screen and (max-width: 700px) {
+  .header {
+    background-color: chartreuse;
+  }
+} */
+
+/*
+  Extra small	None	<576px (телефони)
+  Small	sm	≥576px  (великі телефони)
+  Medium	md	≥768px (планшети)
+  Large	lg	≥992px (ноутбуки - комп'ютери)
+  Extra large	xl	≥1200px (комп'ютери)
+  Extra extra large	xxl	≥1400px (великі екрани)
+*/
+
