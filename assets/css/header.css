@@ -1,0 +1,31 @@
+/* 
+  тут стилі виключно пов'язані з компонентом хедера
+*/
+
+.header {
+  padding: 20px 30px;
+  background-color: orchid;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.page-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.menu {
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 10px;
+}

@@ -12,6 +12,7 @@
 @import "./media/print.css" print;
 @import "./media/screen.css" screen;
 @import "./media/common.css" print, screen;
+@import './header.css';
 
 * {
   box-sizing: border-box;
