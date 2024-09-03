@@ -65,6 +65,11 @@ h1 {
 .em-text,
 .rem-text {
   text-align: justify;
+  /* 
+    висота рядка - коєфіціент на основі фонт-сайзу
+    елементу
+  */
+  line-height: 1.2;
 }
 
 .em-text {
