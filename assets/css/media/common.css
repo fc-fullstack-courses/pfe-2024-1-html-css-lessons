@@ -1,0 +1,80 @@
+:root {
+  font-size: 12px;
+}
+
+h1 {
+  /* 
+    вказує назву шрифта або сімейства шрифта, які треба використати
+  */
+  font-family: "MagicFont", "Arial", "Verdana", cursive;
+
+  font-size: 32px;
+  text-align: center;
+}
+
+.text {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+
+}
+
+.section {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.em-section {
+  /* 16px * 3 = 48px */
+  /* font-size: 3em; */
+  font-size: 20px;
+}
+
+.em-heading,
+.rem-heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+.em-heading {
+  font-size: 2em;
+}
+
+.em-text,
+.rem-text {
+  text-align: justify;
+  /* 
+    висота рядка - коєфіціент на основі фонт-сайзу
+    елементу
+  */
+  line-height: 1.2;
+}
+
+.em-text {
+  /* 
+    em коефіціент, який множиться на розмір шрифта
+    батьківського елементу
+  */
+  font-size: 1em;
+}
+
+.rem-section {
+  font-size: 30px;
+}
+
+.rem-heading {
+  /* 
+    rem коефіціент, який множиться на розмір шрифта
+    root-а (<html>)
+  */
+  font-size: 2rem;
+}
+
+.rem-text {
+  font-size: 1rem;
+}
