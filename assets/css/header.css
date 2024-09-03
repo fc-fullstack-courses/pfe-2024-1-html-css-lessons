@@ -2,6 +2,10 @@
   тут стилі виключно пов'язані з компонентом хедера
 */
 
+:root {
+  font-size: 14px;
+}
+
 .header {
   padding: 20px 30px;
   background-color: orchid;
@@ -43,6 +47,7 @@
   .menu {
     border-color: red;
   }
+}
 
 /* 
   min-width - працює для розмірів більше або дорівнює Х px
@@ -63,3 +68,48 @@
   Extra extra large	xxl	≥1400px (великі екрани)
 */
 
+/* 
+  Desktop first
+
+  спочатку пишемо в селекторах стилі длля великих моніторів
+  потім пишемо медіа запити в яких користуємося брейкпоінтами і max-width
+  медіа запити формуємо від більших бейкпоінтів до менших
+*/
+
+/* @media screen and (max-width: 1400px) {
+  .header {
+    background-color: chartreuse;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .header {
+    background-color: orange;
+  }
+} */
+
+/* 
+  Mobile first
+
+  спочатку пишемо в селекторах стилі длля телефонів
+  потім пишемо медіа запити в яких користуємося брейкпоінтами і min-width
+  медіа запити формуємо від менших бейкпоінтів до більших
+*/
+
+@media screen and (min-width: 576px) {
+  .header {
+    background-color: chartreuse;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+
+  .header {
+    background-color: orange;
+  }
+} 
