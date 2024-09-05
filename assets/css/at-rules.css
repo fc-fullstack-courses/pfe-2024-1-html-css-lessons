@@ -13,6 +13,7 @@
 @import "./media/screen.css" screen;
 @import "./media/common.css" print, screen;
 @import './header.css';
+@import './user-card.css';
 
 * {
   box-sizing: border-box;
