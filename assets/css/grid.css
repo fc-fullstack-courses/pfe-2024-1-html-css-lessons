@@ -2,6 +2,7 @@
 .grid-container {
   /* активація грідів */
   display: grid;
+  min-height: 100vh;
   /* 
     вказуємо розміри та кількість колонок у гріді
   */
@@ -13,7 +14,12 @@
   /* 
     скорочення від  grid-template-rows і grid-template-columns
   */
-  grid-template: 500px 200px / 200px 50% 150px;
+  /* 
+    особливі одиниці виміру
+      1fr - коєфіціент, працює схоже на flex-grow з вільним простором
+      auto - від'єдає все вільне місце по ширині / висоті якщо намє fr
+  */
+  grid-template: 500px auto / 100px auto 200px;
 }
 
 .grid-child {
