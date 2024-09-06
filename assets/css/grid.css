@@ -33,35 +33,48 @@
   /* 
     вказує з якого вертикального треку починається елемент
   */
-  grid-column-start: 1;
+  /* grid-column-start: 1; */
   /* 
     вказує на якому вертикальному треку елемент зупиниться
   */
-  grid-column-end: 4;
+  /* grid-column-end: 4; */
+  /* 
+    скорочення у вигляді
+    grid-column-start / grid-column-end
+  */
+  grid-column: 1 / 4;
 }
 
 .aside {
   background-color: blue;
-  grid-row-start: 2;
+  /* grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 2; */
+  grid-area: 2 / 1 / 3 / 2;
 }
 
 .main {
   background-color: blueviolet;
-  grid-row-start: 2;
+  /* grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 3; */
+  /* 
+    скорочення у вигляді
+    row-start / column-start / row-end / column-end
+  */
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .nav {
   background-color: aqua;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
+  /* grid-column-start: 3;
+  grid-column-end: 4; */
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
 }
 
 .footer {
@@ -71,9 +84,14 @@
   /* 
     вказує з якого горизонтального треку починається елемент
   */
-  grid-row-start: 3;
+  /* grid-row-start: 3; */
   /* 
     вказує на якому горизонтальному треку закінчується елемент
   */
-  grid-row-end: 4;
+  /* grid-row-end: 4; */
+  /* 
+    скорочення у вигляді
+    grid-row-start / grid-row-end
+  */
+  grid-row: 3 / 4;
 } 
