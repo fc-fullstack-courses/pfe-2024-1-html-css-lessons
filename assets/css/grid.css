@@ -2,6 +2,18 @@
 .grid-container {
   /* активація грідів */
   display: grid;
+  /* 
+    вказуємо розміри та кількість колонок у гріді
+  */
+  /* grid-template-columns: 200px 400px 150px; */
+  /* 
+    вказуємо розміри та кількість рядків у гріді
+  */
+  /* grid-template-rows: 500px 200px; */
+  /* 
+    скорочення від  grid-template-rows і grid-template-columns
+  */
+  grid-template: 500px 200px / 200px 50% 150px;
 }
 
 .grid-child {
