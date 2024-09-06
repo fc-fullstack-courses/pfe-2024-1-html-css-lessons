@@ -42,7 +42,7 @@
     скорочення у вигляді
     grid-column-start / grid-column-end
   */
-  grid-column: 1 / 4;
+  grid-column: span 3 / -1;
 }
 
 .aside {
@@ -74,12 +74,12 @@
   /* grid-column-start: 3;
   grid-column-end: 4; */
   grid-row: 2 / 3;
-  grid-column: 3 / 4;
+  grid-column: 3 / span 1;
 }
 
 .footer {
   background-color: orange;
-  grid-column-start: 1;
+  grid-column-start: span 3;
   grid-column-end: 4;
   /* 
     вказує з якого горизонтального треку починається елемент
