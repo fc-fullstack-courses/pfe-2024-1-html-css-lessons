@@ -5,7 +5,10 @@
 :root {
   font-size: 14px;
 }
-
+/* 
+  мобілки
+  + загальні стилі для всіх розмірів
+*/
 .header {
   padding: 20px 30px;
   background-color: orchid;
@@ -97,13 +100,19 @@
   медіа запити формуємо від менших бейкпоінтів до більших
 */
 
+/* 
+  лопатофони
+*/
 @media screen and (min-width: 576px) {
   .header {
     background-color: chartreuse;
+    padding: 50px;
   }
 }
 
-
+/* 
+  планшети
+*/
 @media screen and (min-width: 768px) {
   :root {
     font-size: 16px;
@@ -112,4 +121,51 @@
   .header {
     background-color: orange;
   }
+
+  .header-container {
+    flex-direction: column;
+  }
 } 
+
+/* 
+  планшети + маленьки ноутбуки
+  + старі квадратні монітори 
+*/
+@media screen and (min-width: 992px) {
+  :root {
+    font-size: 20px;
+  }
+
+  .header-container {
+    flex-direction: row-reverse;
+  }
+
+  .header {
+    background-color: aquamarine;
+  }
+}
+/* 
+  сучасні ноутбуки + комп'ютери
+*/
+@media screen and (min-width: 1200px) {
+  .header {
+    background-color: cadetblue;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    background-color: darkgray;
+  }
+}
+
+/* 
+                min-width
+  базові стилі -> 576px -> 768px -> 992px -> 1200px -> 1400px
+*/
+
+
+/* 
+                max-width
+  базові стилі -> 1400px -> 1200px -> 992px -> 768px -> 576px
+*/
